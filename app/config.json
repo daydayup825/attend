@@ -1,0 +1,20 @@
+{
+    "api": {
+        "name": "attend"
+    },
+
+    "docker": {
+        "image": "services/attend"，
+    },
+
+    "db" : {
+        "migrate" : true,
+        "console" : true,
+        "type": "mysql",
+        "host": "101.200.124.155",
+        "port": 3307,
+        "schema": "attend",
+        "username": "root",
+        "password": "123456"
+    }
+}
